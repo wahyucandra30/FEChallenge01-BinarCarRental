@@ -147,3 +147,6 @@ html {
 .paragraph-mid{
     width: 70%;
 }
+.list-nosymbol{
+    list-style: none;
+}
