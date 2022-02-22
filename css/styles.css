@@ -144,9 +144,36 @@ html {
     font-family: Helvetica;
     line-height: 36px;
 }
-.paragraph-mid{
+
+.paragraph-mid {
     width: 70%;
 }
-.list-nosymbol{
+
+.list-nosymbol {
     list-style: none;
+}
+
+.card-whyus {
+    width: 268px;
+    height: 196px;
+    margin: 0px;
+}
+.wrapper-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.heading-card {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.img-card {
+    width: 32px;
 }
