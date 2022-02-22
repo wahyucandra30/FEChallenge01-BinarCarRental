@@ -22,75 +22,97 @@
     --NEUTRAL02: #D0D0D0;
     --NEUTRAL01: #FFFFFF;
 }
-html{
+
+html {
     font-size: 14px;
 }
+
 .logo {
     width: 100px;
     height: 34px;
     background-color: var(--DARKBLUE04);
 }
-.btn-register {
-    width: 81px;
-    height: 36px;
+
+.btn-submit {
     background-color: var(--LIMEGREEN04);
     border-radius: 2px;
     font-weight: 700;
     border: none;
 }
-.navbar-item{
+
+.btn-register {
+    width: 81px;
+    height: 36px;
+}
+
+.btn-start {
+    width: 140px;
+    height: 36px;
+}
+
+.navbar-item {
     margin-left: 16px;
     margin-right: 16px;
 }
 
-.navbar-text{
+.navbar-text {
     font-size: 14px;
     font-weight: 400;
     color: black !important;
 }
-.wrapper-start{
+
+.wrapper-start {
     height: 500px;
     background-color: #F1F3FF;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-start;
 }
-.wrapper-start-l{
+
+.wrapper-start-l {
     max-width: 50vw;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 7.5%;
 }
-.wrapper-start-tagline{
+
+.wrapper-start-tagline {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
-.heading-start{
+
+.heading-start {
     font-weight: 700;
     font-size: 36px;
-    max-width: 85%;
+    max-width: 100%;
     font-family: Helvetica;
     line-height: 150%;
 }
-.paragraph-start{
-    width: 70%;
-    align-self: center;
+
+.paragraph {
     font-weight: 300;
     line-height: 20px;
     color: black;
 }
-.wrapper-start-r{
-    width: 704px;
+
+.paragraph-start {
+    width: 75%;
+}
+
+.wrapper-start-r {
+    max-width: 704px;
     height: 100%;
     display: flex;
     align-items: flex-end;
 }
-.bg-car{
+
+.bg-car {
     max-width: 100%;
-    height: 243px;
+    max-height: 243px;
     background-color: var(--DARKBLUE04);
     display: flex;
     align-items: flex-end;
@@ -98,7 +120,30 @@ html{
     overflow-y: visible;
     border-radius: 60px 0px 0px;
 }
-.img-relative{
+
+.img-relative {
     position: relative;
     width: 100%;
+}
+
+.wrapper-mid {
+    padding-top: 104px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.wrapper-mid-r {
+    padding-top: 36px;
+}
+
+.heading-mid {
+    font-weight: bold;
+    font-size: 24px;
+    max-width: 80%;
+    font-family: Helvetica;
+    line-height: 36px;
+}
+.paragraph-mid{
+    width: 70%;
 }
