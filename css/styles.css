@@ -1,0 +1,104 @@
+:root {
+    /* Primary */
+    --DARKBLUE05: #091B6F;
+    --DARKBLUE04: #0D28A6;
+    --DARKBLUE03: #5E70C4;
+    --DARKBLUE02: #AEB7E1;
+    --DARKBLUE01: #CFD4ED;
+    --LIMEGREEN05: #3D7B3F;
+    --LIMEGREEN04: #5CB85F;
+    --LIMEGREEN03: #92D094;
+    --LIMEGREEN02: #C9E7CA;
+    --LIMEGREEN01: #DEF1DF;
+    /* Alert */
+    --ALERTDANGER: #FA2C5A;
+    --ALERTWARNING: #F9CC00;
+    --ALERTSUCCESS: #73CA5C;
+
+    /* Neutral */
+    --NEUTRAL05: #151515;
+    --NEUTRAL04: #3C3C3C;
+    --NEUTRAL03: #8A8A8A;
+    --NEUTRAL02: #D0D0D0;
+    --NEUTRAL01: #FFFFFF;
+}
+html{
+    font-size: 14px;
+}
+.logo {
+    width: 100px;
+    height: 34px;
+    background-color: var(--DARKBLUE04);
+}
+.btn-register {
+    width: 81px;
+    height: 36px;
+    background-color: var(--LIMEGREEN04);
+    border-radius: 2px;
+    font-weight: 700;
+    border: none;
+}
+.navbar-item{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.navbar-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: black !important;
+}
+.wrapper-start{
+    height: 500px;
+    background-color: #F1F3FF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.wrapper-start-l{
+    max-width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper-start-tagline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heading-start{
+    font-weight: 700;
+    font-size: 36px;
+    max-width: 85%;
+    font-family: Helvetica;
+    line-height: 150%;
+}
+.paragraph-start{
+    width: 70%;
+    align-self: center;
+    font-weight: 300;
+    line-height: 20px;
+    color: black;
+}
+.wrapper-start-r{
+    width: 704px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.bg-car{
+    max-width: 100%;
+    height: 243px;
+    background-color: var(--DARKBLUE04);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    overflow-y: visible;
+    border-radius: 60px 0px 0px;
+}
+.img-relative{
+    position: relative;
+    width: 100%;
+}

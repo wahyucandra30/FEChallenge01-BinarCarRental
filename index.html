@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Binar Car Rental</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binar Car Rental</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/bootstrap.js"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top|fixed-bottom|sticky-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler hidden-lg-up" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation"></button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-              <div class="dropdown-menu" aria-labelledby="dropdownId">
-                <a class="dropdown-item" href="#">Action 1</a>
-                <a class="dropdown-item" href="#">Action 2</a>
-              </div>
-            </li>
-          </ul>
-          <form class="d-flex my-2 my-lg-0">
-            <input class="form-control me-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light py-4 fixed-top">
+    <div class="container">
+      <!-- Logo -->
+      <div class="navbar-brand logo me-auto" type="button"></div>
+      <!-- Collapse Toggle -->
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collapsible -->
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item navbar-item">
+            <a class="nav-link text-black navbar-text" href="#">Our Services<span
+                class="visually-hidden">(current)</span></a>
+          </li>
+          <li class="nav-item navbar-item">
+            <a class="nav-link text-black navbar-text" href="#">Why Us</a>
+          </li>
+          <li class="nav-item navbar-item">
+            <a class="nav-link text-black navbar-text" href="#">Testimonial</a>
+          </li>
+          <li class="nav-item navbar-item">
+            <a class="nav-link text-black navbar-text" href="#">FAQ</a>
+          </li>
+          <li class="nav-item navbar-item">
+            <button class="btn btn-success my-2 my-sm-0 btn-register" type="button">Register</button>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <div class="wrapper-start">
+    <div class="wrapper-start-l">
+      <div class="wrapper-start-tagline">
+        <h1 class="heading-start">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+        <p class="paragraph-start">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu
+          siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+      </div>
+    </div>
+    <div class="wrapper-start-r">
+      <div class="bg-car">
+        <img src="img/Mercedes Car EQC 300kW Edition - 900x598 1.png" class="img-relative"
+          alt="Mercedes Car EQC 300kW Edition - 900x598 1">
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
