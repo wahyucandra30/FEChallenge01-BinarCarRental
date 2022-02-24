@@ -183,15 +183,19 @@ html {
 .heading-mid {
     font-weight: bold;
     font-size: 24px;
-    max-width: 80%;
+    max-width: 90%;
     font-family: Helvetica;
     line-height: 36px;
 }
 
 .paragraph-mid {
-    width: 70%;
+    width: 85%;
+    margin-top: 24px;
 }
-
+.paragraph-whyus {
+    width: 85%;
+    margin-top: 16px;
+}
 .list-nosymbol {
     list-style: none;
 }
