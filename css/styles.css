@@ -268,7 +268,8 @@ html {
     align-items: center;
     justify-content: center;
 }
-.slider{
+
+.slider {
     min-width: 100vw;
     overflow-x: visible;
     box-sizing: content-box !important;
@@ -276,26 +277,31 @@ html {
     flex-flow: nowrap;
     justify-content: space-evenly;
 }
+
 .card-testimonial {
     width: 619px;
     height: 270px;
     background: #F1F3FF;
     border: none;
 }
-.card-body-testimonial{
+
+.card-body-testimonial {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
-.btn-carousel{
+
+.btn-carousel {
     border-radius: 50%;
     width: 32px;
     height: 32px;
     padding: 0;
     border-color: #C4C4C4;
     border-width: 1px;
+    border-style: solid;
 }
+
 .carousel-testimonial {
     margin-top: 26px;
 }
@@ -310,13 +316,17 @@ html {
     text-align: left;
     margin-top: 8px;
 }
-.paragraph-carousel{
+
+.paragraph-carousel {
     max-width: 95%;
+    margin-top: 8px;
 }
-.col-fitcontent{
+
+.col-fitcontent {
     width: fit-content;
 }
-.wrapper-carousel-arrows{
+
+.wrapper-carousel-arrows {
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -324,4 +334,38 @@ html {
     justify-content: center;
     gap: 24px;
     margin-top: 24px;
+}
+
+.wrapper-bottom {
+    margin-top: 100px;
+    background-color: var(--DARKBLUE04);
+    width: 100%;
+    height: 326px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-bottom {
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.paragraph-bottom {
+    color: white;
+    margin-bottom: 52px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 40%;
+
 }
