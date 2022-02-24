@@ -279,7 +279,7 @@ html {
 }
 
 .card-testimonial {
-    width: 619px;
+    max-width: 619px;
     height: 270px;
     background: #F1F3FF;
     border: none;
@@ -300,6 +300,9 @@ html {
     border-color: #C4C4C4;
     border-width: 1px;
     border-style: solid;
+}
+.btn-carousel:hover{
+    background-color: var(--LIMEGREEN04);
 }
 
 .carousel-testimonial {
@@ -340,7 +343,7 @@ html {
     margin-top: 100px;
     background-color: var(--DARKBLUE04);
     width: 100%;
-    height: 326px;
+    min-height: 326px;
     border-radius: 13px;
     display: flex;
     flex-direction: column;
@@ -367,5 +370,18 @@ html {
     letter-spacing: 0em;
     text-align: center;
     width: 40%;
+}
 
+.wrapper-faq {
+    padding-top: 104px;
+    padding-left: 0px;
+    width: 100%;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; */
+}
+
+.accordion-faq {
+    height: 56px;
+    background-color: white;
 }
